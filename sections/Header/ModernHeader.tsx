@@ -125,8 +125,8 @@ const onLoad = () => {
 export default function ModernHeader({
   logo = "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/tec4u-logo.png",
   logoAlt = "TEC4U",
-  logoWidth = 140,
-  logoHeight = 50,
+  logoWidth = 130,
+  logoHeight = 40,
   menuItems = DEFAULT_MENU_ITEMS,
   languages = DEFAULT_LANGUAGES,
   currentLanguage = "pt",
