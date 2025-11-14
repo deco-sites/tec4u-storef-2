@@ -1,7 +1,9 @@
 {
-  "name": "Home Page",
+  "name": "Store Home Page ",
   "sections": [
-    {"__resolveType": "Deco"},
+    {
+      "__resolveType": "Deco"
+    },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
@@ -197,7 +199,7 @@
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
-  "path": "/",
+  "path": "/store",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
