@@ -138,16 +138,17 @@ export default function ModernHeader({
     <>
       <header class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 shadow-sm">
         <div class="container mx-auto px-4">
-          <div class="flex items-center justify-between h-20 lg:h-24">
+          <div class="flex items-center justify-between h-16 sm:h-20 lg:h-24">
             {/* Logo */}
-            <a href="/" class="flex-shrink-0 z-50">
+            <a href="/" class="flex-shrink-0 z-50 relative">
               <Image
                 src={logo}
                 alt={logoAlt}
                 width={logoWidth}
                 height={logoHeight}
-                class="h-10 lg:h-12 w-auto"
+                class="h-8 sm:h-10 md:h-11 lg:h-12 xl:h-14 w-auto object-contain max-w-[100px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] xl:max-w-[180px]"
                 loading="eager"
+                fetchPriority="high"
               />
             </a>
 
@@ -357,7 +358,7 @@ export default function ModernHeader({
       </div>
 
       {/* Spacer for fixed header */}
-      <div class="h-20 lg:h-24" />
+      <div class="h-16 sm:h-20 lg:h-24" />
 
       <script dangerouslySetInnerHTML={{ __html: useScript(onLoad) }} />
     </>

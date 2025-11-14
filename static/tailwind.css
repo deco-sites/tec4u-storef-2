@@ -3891,17 +3891,11 @@ details.collapse summary::-webkit-details-marker {
 .aspect-\[156\/87\] {
   aspect-ratio: 156/87;
 }
-.h-10 {
-  height: 2.5rem;
-}
 .h-12 {
   height: 3rem;
 }
 .h-16 {
   height: 4rem;
-}
-.h-20 {
-  height: 5rem;
 }
 .h-3 {
   height: 0.75rem;
@@ -4103,6 +4097,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .max-w-7xl {
   max-width: 80rem;
+}
+.max-w-\[100px\] {
+  max-width: 100px;
 }
 .max-w-\[139px\] {
   max-width: 139px;
@@ -5720,6 +5717,14 @@ details.collapse summary::-webkit-details-marker {
     display: none;
   }
 
+  .sm\:h-10 {
+    height: 2.5rem;
+  }
+
+  .sm\:h-20 {
+    height: 5rem;
+  }
+
   .sm\:h-\[273px\] {
     height: 273px;
   }
@@ -5747,6 +5752,10 @@ details.collapse summary::-webkit-details-marker {
 
   .sm\:max-w-96 {
     max-width: 24rem;
+  }
+
+  .sm\:max-w-\[120px\] {
+    max-width: 120px;
   }
 
   .sm\:max-w-\[33\%\] {
@@ -5922,6 +5931,14 @@ details.collapse summary::-webkit-details-marker {
     margin-right: 2.5rem;
   }
 
+  .md\:h-11 {
+    height: 2.75rem;
+  }
+
+  .md\:max-w-\[140px\] {
+    max-width: 140px;
+  }
+
   .md\:max-w-\[50\%\] {
     max-width: 50%;
   }
@@ -6031,6 +6048,10 @@ details.collapse summary::-webkit-details-marker {
     max-width: 48rem;
   }
 
+  .lg\:max-w-\[160px\] {
+    max-width: 160px;
+  }
+
   .lg\:max-w-lg {
     max-width: 32rem;
   }
@@ -6123,6 +6144,14 @@ details.collapse summary::-webkit-details-marker {
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .xl\:h-14 {
+    height: 3.5rem;
+  }
+
+  .xl\:max-w-\[180px\] {
+    max-width: 180px;
   }
 
   .xl\:gap-6 {
