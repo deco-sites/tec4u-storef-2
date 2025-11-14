@@ -1,6 +1,6 @@
 {
   "name": "Tec4U Digital - Home Page",
-  "path": "/home",
+  "path": "/",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
