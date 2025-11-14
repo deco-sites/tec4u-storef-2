@@ -1,0 +1,141 @@
+{
+  "name": "Header Demo",
+  "path": "/header-demo",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header/ModernHeader.tsx",
+      "logoAlt": "TEC4U Digital",
+      "logoWidth": 140,
+      "logoHeight": 50,
+      "menuItems": [
+        {
+          "label": "SOLUÇÕES",
+          "href": "/solucoes",
+          "children": [
+            {
+              "label": "E-commerce",
+              "href": "/solucoes/ecommerce",
+              "description": "Lojas online de alta performance"
+            },
+            {
+              "label": "Sites Institucionais",
+              "href": "/solucoes/sites",
+              "description": "Presença digital profissional"
+            },
+            {
+              "label": "Sistemas Personalizados",
+              "href": "/solucoes/sistemas",
+              "description": "Desenvolvimento sob medida"
+            },
+            {
+              "label": "Integrações",
+              "href": "/solucoes/integracoes",
+              "description": "Conecte seus sistemas"
+            },
+            {
+              "label": "Consultoria Digital",
+              "href": "/solucoes/consultoria",
+              "description": "Estratégias digitais"
+            }
+          ]
+        },
+        {
+          "label": "SOBRE NÓS",
+          "href": "/sobre"
+        },
+        {
+          "label": "BLOG",
+          "href": "/blog"
+        },
+        {
+          "label": "CASES",
+          "href": "/cases"
+        },
+        {
+          "label": "LOJA DE LAYOUTS",
+          "href": "/layouts",
+          "highlight": true
+        }
+      ],
+      "languages": [
+        {
+          "code": "pt",
+          "label": "Português"
+        },
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "es",
+          "label": "Español"
+        }
+      ],
+      "currentLanguage": "pt",
+      "contactButton": {
+        "label": "CONTATO",
+        "href": "/contato"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/Intro.tsx",
+      "title": "Novo Header Moderno",
+      "description": "<p>Este é o novo header criado conforme o design solicitado.</p><p><strong>Características:</strong></p><ul><li>✅ Design moderno e limpo</li><li>✅ Menu dropdown para Soluções</li><li>✅ Seletor de idioma</li><li>✅ Botão de contato com gradiente</li><li>✅ Totalmente responsivo</li><li>✅ Menu mobile com animações</li><li>✅ Fixo no topo com scroll</li><li>✅ Hover effects suaves</li></ul>",
+      "cta": [
+        {
+          "href": "#recursos",
+          "text": "Ver Recursos"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/Faq.tsx",
+      "title": "Recursos do Header",
+      "description": "Confira todas as funcionalidades implementadas",
+      "questions": [
+        {
+          "question": "🎨 Design Fiel ao Protótipo",
+          "answer": "O header foi criado seguindo exatamente o design do print fornecido, com logo à esquerda, menu centralizado e botão de contato à direita."
+        },
+        {
+          "question": "📱 100% Responsivo",
+          "answer": "Adapta-se perfeitamente a qualquer tamanho de tela, de smartphones a desktops 4K. No mobile, o menu se transforma em um drawer lateral elegante."
+        },
+        {
+          "question": "🔽 Menu Dropdown Interativo",
+          "answer": "O menu 'SOLUÇÕES' possui submenu dropdown com animações suaves. Cada item pode ter descrição e é totalmente editável."
+        },
+        {
+          "question": "🌐 Seletor de Idioma",
+          "answer": "Sistema de troca de idioma integrado com dropdown elegante. Suporta múltiplos idiomas e destaca o idioma atual."
+        },
+        {
+          "question": "✨ Botão com Gradiente",
+          "answer": "Botão de contato com gradiente roxo-rosa, ícone de seta e efeitos hover com escala e sombra."
+        },
+        {
+          "question": "📦 Fixo no Topo",
+          "answer": "Header fixo que permanece visível durante o scroll, com sombra sutil para dar profundidade."
+        },
+        {
+          "question": "🎯 Totalmente Editável",
+          "answer": "Todos os elementos são editáveis pelo painel admin: logo, itens de menu, textos, cores, links e configurações."
+        },
+        {
+          "question": "🚀 Performance Otimizada",
+          "answer": "Código leve e otimizado, com JavaScript vanilla para interações e Tailwind CSS v4 para estilização."
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Header Moderno - Tec4U Digital",
+    "description": "Demonstração do novo header moderno e responsivo da Tec4U Digital",
+    "themeColor": "#D946A6"
+  }
+}
