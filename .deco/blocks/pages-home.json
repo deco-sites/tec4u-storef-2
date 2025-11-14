@@ -1,5 +1,5 @@
 {
-  "name": "Store Home Page ",
+  "name": "Tec4U Digital - Home Page",
   "sections": [
     {
       "__resolveType": "Deco"
@@ -14,37 +14,37 @@
       "__resolveType": "site/sections/Images/Carousel.tsx",
       "images": [
         {
-          "desktop": "https://assets.decocache.com/storefront/cda73525-1147-4616-8ff1-65b566b7ed75/1742560195835-5b022a01-ba88-46fe-86ae-93ae644605b7",
-          "mobile": "https://assets.decocache.com/storefront/9c8c0ce3-4ffb-49d6-a8d1-fe17a3db7e86/1742560203848-88b2ad41-be6d-4640-b9fe-c58942362f0f",
-          "alt": "Shoes",
+          "desktop": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/hero-desktop-1.jpg",
+          "mobile": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/hero-mobile-1.jpg",
+          "alt": "Soluções Digitais Tec4U",
           "action": {
-            "title": "Skate into Adventure, go!",
-            "subTitle": "Top-quality roller skate shoes for all levels. ",
-            "href": "/s?q=shoes&page=0",
-            "label": "Grab Yours Now!"
+            "title": "Transforme Seu Negócio com Tecnologia",
+            "subTitle": "Soluções digitais completas para impulsionar sua empresa",
+            "href": "#solucoes",
+            "label": "Conheça Nossas Soluções"
           }
         },
         {
-          "desktop": "https://assets.decocache.com/storefront/98a22637-60b2-41f7-9d49-dbbf99f50472/1742560212519-d26304f4-355b-48d0-b649-e24b9cbf0ded",
-          "mobile": "https://assets.decocache.com/storefront/05748b9f-6c37-4845-aa57-1d2338ece0b8/1742560215958-47a4d85a-1150-4e5d-abc2-5c642445ff12",
-          "alt": "Men",
+          "desktop": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/hero-desktop-2.jpg",
+          "mobile": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/hero-mobile-2.jpg",
+          "alt": "E-commerce Profissional",
           "action": {
-            "title": "Discover Fresh Looks",
-            "subTitle": "Modern men's clothing and accessories.",
-            "href": "/men",
-            "label": "Shop the Collection"
+            "title": "E-commerce de Alta Performance",
+            "subTitle": "Plataformas modernas e escaláveis para seu negócio online",
+            "href": "#ecommerce",
+            "label": "Saiba Mais"
           }
         },
         {
-          "desktop": "https://assets.decocache.com/storefront/6ee525fa-fcd1-4cbe-be78-eaaa312c0471/1742560219550-1226ef79-c7e0-403c-b716-b6b9af3f2936",
-          "mobile": "https://assets.decocache.com/storefront/9f6167b5-887a-4401-9ac6-1888a9fc32e9/1742560222938-f7ea4cbe-7498-4e64-9205-c741753edfcc",
+          "desktop": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/hero-desktop-3.jpg",
+          "mobile": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/hero-mobile-3.jpg",
           "action": {
-            "label": "Shop Now!",
-            "href": "/women",
-            "title": "Embrace New Trends",
-            "subTitle": "Stylish clothes and accessories."
+            "label": "Fale Conosco",
+            "href": "#contato",
+            "title": "Suporte Especializado",
+            "subTitle": "Atendimento personalizado para sua empresa"
           },
-          "alt": "Woman"
+          "alt": "Suporte Tec4U Digital"
         }
       ],
       "preload": true
@@ -52,45 +52,99 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "title": "Featured Products",
-        "cta": "/mono",
-        "products": {
-          "__resolveType": "Product List Loader"
-        }
+        "__resolveType": "site/sections/Content/Intro.tsx",
+        "title": "Sobre a Tec4U Digital",
+        "cta": [
+          {
+            "href": "#solucoes",
+            "text": "Nossas Soluções"
+          },
+          {
+            "href": "#contato",
+            "text": "Entre em Contato",
+            "outline": true
+          }
+        ],
+        "description": "<p>Somos uma empresa especializada em <strong>soluções digitais completas</strong>, oferecendo serviços de desenvolvimento de e-commerce, sites institucionais, sistemas personalizados e consultoria em tecnologia.</p><p>Com anos de experiência no mercado, ajudamos empresas de todos os portes a crescerem no ambiente digital com <strong>tecnologia de ponta</strong> e <strong>suporte especializado</strong>.</p>"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Category/CategoryGrid.tsx",
-        "title": "Departments",
-        "cta": "/all",
+        "title": "Nossas Soluções",
+        "cta": "/solucoes",
         "items": [
           {
-            "label": "Men",
-            "href": "/men",
-            "image": "https://assets.decocache.com/storefront/a1e905ee-e680-41f1-93aa-7e2525214e40/1742560225714-38c33c9f-14a1-4048-973b-dc2a75caf1fa"
+            "label": "E-commerce",
+            "href": "/solucoes/ecommerce",
+            "image": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/solution-ecommerce.jpg",
+            "description": "Plataformas completas para vendas online"
           },
           {
-            "href": "/women",
-            "label": "Women",
-            "image": "https://assets.decocache.com/storefront/327048d1-e1d9-4f60-9057-71f823ba2d72/1742560227121-f6bea2b8-b248-4b42-9246-6e924a0acc8b"
+            "href": "/solucoes/sites",
+            "label": "Sites Institucionais",
+            "image": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/solution-websites.jpg",
+            "description": "Presença digital profissional para sua marca"
           },
           {
-            "href": "/kids",
-            "label": "Kids",
-            "image": "https://assets.decocache.com/storefront/c1d9c142-478f-4ada-912b-1ca918365e72/1742560228502-1b0ecaa2-9a13-4de2-bf17-5196948ed128"
+            "href": "/solucoes/sistemas",
+            "label": "Sistemas Personalizados",
+            "image": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/solution-systems.jpg",
+            "description": "Desenvolvimento sob medida para seu negócio"
           },
           {
-            "href": "/accessories",
-            "label": "Accessories",
-            "image": "https://assets.decocache.com/storefront/38a0d82a-e443-4e7c-aea9-3b8eeb26e40b/1742560230067-92129655-fe40-4b29-8fdb-e7f71e67a5d1"
+            "href": "/solucoes/integracao",
+            "label": "Integrações",
+            "image": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/solution-integration.jpg",
+            "description": "Conecte seus sistemas e automatize processos"
           },
           {
-            "href": "/home-and-living",
-            "label": "Home & Living",
-            "image": "https://assets.decocache.com/storefront/648ef60d-c193-4fb3-9a36-1929d0676f28/1742560231577-d0433c00-cd26-4638-b519-0cb64b9f82e8"
+            "href": "/solucoes/consultoria",
+            "label": "Consultoria Digital",
+            "image": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/solution-consulting.jpg",
+            "description": "Estratégias para otimizar sua presença online"
+          },
+          {
+            "href": "/solucoes/suporte",
+            "label": "Suporte & Manutenção",
+            "image": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/solution-support.jpg",
+            "description": "Mantenha suas plataformas sempre atualizadas"
+          }
+        ],
+        "description": "Oferecemos soluções completas para transformar seu negócio digital"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Faq.tsx",
+        "title": "Por Que Escolher a Tec4U?",
+        "description": "Nossos diferenciais que fazem a diferença",
+        "questions": [
+          {
+            "question": "🚀 Experiência Comprovada",
+            "answer": "Anos de experiência desenvolvendo soluções digitais para empresas de diversos segmentos, sempre focando em resultados e satisfação do cliente."
+          },
+          {
+            "question": "⚡ Tecnologia de Ponta",
+            "answer": "Utilizamos as tecnologias mais modernas e performáticas do mercado, garantindo sites e sistemas rápidos, seguros e escaláveis."
+          },
+          {
+            "question": "🎯 Suporte Dedicado",
+            "answer": "Equipe especializada pronta para atender suas necessidades, com suporte ágil e eficiente para manter seu negócio sempre em operação."
+          },
+          {
+            "question": "💡 Soluções Personalizadas",
+            "answer": "Cada projeto é único. Desenvolvemos soluções sob medida que atendem perfeitamente às necessidades específicas do seu negócio."
+          },
+          {
+            "question": "📊 Resultados Mensuráveis",
+            "answer": "Implementamos ferramentas de analytics e métricas para você acompanhar o desempenho e o ROI das suas soluções digitais."
+          },
+          {
+            "question": "🔒 Segurança e Confiabilidade",
+            "answer": "Seus dados e os de seus clientes estão seguros com nossas práticas avançadas de segurança e infraestrutura confiável."
           }
         ]
       }
@@ -99,74 +153,54 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Images/Banner.tsx",
-        "title": "Register and Save Big!",
+        "title": "Pronto para Transformar Seu Negócio?",
         "cta": {
-          "label": "Sign Up",
-          "href": "#"
+          "label": "Solicitar Orçamento",
+          "href": "#contato"
         },
-        "description": "<p><span style=\"color: rgb(45, 194, 107);\" data-mce-style=\"color: rgb(45, 194, 107);\">Sign up now to get up to 50% off on your first order. Limited time offer!</span></p>",
+        "description": "<p><span style='color: rgb(45, 194, 107);'>Entre em contato conosco e descubra como podemos ajudar sua empresa a crescer no ambiente digital. Consultoria gratuita!</span></p>",
         "images": {
-          "desktop": "https://assets.decocache.com/storefront/d4ba070d-c3ba-4a9c-b75f-e01f859063f1/1742560233015-cf96d47f-564f-40da-ad94-7acac5f39327",
-          "mobile": "https://assets.decocache.com/storefront/c023f1c2-74b9-4b3a-a947-ff5de9d02347/1742560234608-4d5c3212-3f75-4d50-89f3-970815748b43"
+          "desktop": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/cta-banner-desktop.jpg",
+          "mobile": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/cta-banner-mobile.jpg"
         }
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Product/ProductShelfTabbed.tsx",
-        "title": "Hottest Deals",
-        "tabs": [
+        "__resolveType": "site/sections/Content/Logos.tsx",
+        "title": "Clientes e Parceiros",
+        "description": "Empresas que confiam em nossas soluções",
+        "logos": [
           {
-            "products": {
-              "__resolveType": "shopify/loaders/ProductList.ts",
-              "props": {
-                "sort": "",
-                "query": "hat and bag",
-                "count": 10
-              },
-              "filters": {
-                "tags": [],
-                "productTypes": [],
-                "productVendors": [],
-                "variantOptions": []
-              }
-            },
-            "title": "Accessories"
+            "src": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/client-logo-1.png",
+            "alt": "Cliente 1",
+            "href": "#"
           },
           {
-            "products": {
-              "__resolveType": "shopify/loaders/ProductList.ts",
-              "props": {
-                "sort": "",
-                "query": "Shirts",
-                "count": 10
-              },
-              "filters": {
-                "tags": [],
-                "productTypes": [],
-                "productVendors": [],
-                "variantOptions": []
-              }
-            },
-            "title": "Fashion"
+            "src": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/client-logo-2.png",
+            "alt": "Cliente 2",
+            "href": "#"
           },
           {
-            "products": {
-              "__resolveType": "shopify/loaders/ProductList.ts",
-              "props": {
-                "sort": "",
-                "query": "stickers",
-                "count": 10
-              },
-              "filters": {
-                "tags": [],
-                "productTypes": [],
-                "productVendors": [],
-                "variantOptions": []
-              }
-            },
-            "title": "Stickers"
+            "src": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/client-logo-3.png",
+            "alt": "Cliente 3",
+            "href": "#"
+          },
+          {
+            "src": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/client-logo-4.png",
+            "alt": "Cliente 4",
+            "href": "#"
+          },
+          {
+            "src": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/client-logo-5.png",
+            "alt": "Cliente 5",
+            "href": "#"
+          },
+          {
+            "src": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/client-logo-6.png",
+            "alt": "Cliente 6",
+            "href": "#"
           }
         ]
       }
@@ -175,19 +209,19 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
-        "label": "Sign up",
-        "placeholder": "Email address",
+        "label": "Assinar Newsletter",
+        "placeholder": "Seu melhor e-mail",
         "empty": {
-          "title": "Get top deals, latest trends, and more.",
-          "description": "Receive our news and promotions in advance. Enjoy and get 10% off your first purchase. For more information click here."
+          "title": "Receba Novidades e Dicas sobre Tecnologia",
+          "description": "Inscreva-se em nossa newsletter e receba conteúdos exclusivos sobre transformação digital, tendências de tecnologia e dicas para seu negócio."
         },
         "success": {
-          "title": "Thank you for subscribing!",
-          "description": "You’re now signed up to receive the latest news, trends, and exclusive promotions directly to your inbox. Stay tuned!"
+          "title": "Obrigado por se inscrever!",
+          "description": "Você agora receberá nossas novidades e conteúdos exclusivos diretamente em seu e-mail. Fique atento!"
         },
         "failed": {
-          "title": "Oops!. Something went wrong!",
-          "description": "Something went wrong. Please try again. If the problem persists, please contact us."
+          "title": "Ops! Algo deu errado!",
+          "description": "Não foi possível completar sua inscrição. Por favor, tente novamente ou entre em contato conosco."
         }
       }
     },
@@ -199,8 +233,14 @@
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
-  "path": "/store",
+  "path": "/",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Tec4U Digital - Soluções Digitais Completas | E-commerce, Sites e Sistemas",
+    "description": "Transforme seu negócio com as soluções digitais da Tec4U. Desenvolvemos e-commerce, sites institucionais, sistemas personalizados e oferecemos consultoria especializada em tecnologia.",
+    "canonical": "https://www.tec4udigital.com/",
+    "themeColor": "#2DC26B",
+    "favicon": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/favicon.ico",
+    "image": "https://assets.decocache.com/tec4u-storef-2/51b1474d-c7b4-4056-b9fe-cd2ec3910ee7/og-image.jpg"
   }
 }
