@@ -3,7 +3,14 @@
   "path": "/home",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Header/ModernHeader.tsx",
+        "logo": "https://assets.decocache.com/tec4u-storef-2/2141533c-60e8-4bc5-b4d3-cf3f086047e9/6526ab3ba6aaac4ad817286e_Vector.svg",
+        "logoAlt": "130",
+        "logoWidth": 28,
+        "logoHeight": 130
+      }
     },
     {
       "__resolveType": "site/sections/Images/Carousel.tsx",
